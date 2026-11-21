@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+body {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 500px; */
+  padding: 20px 300px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 80px;
+  /* border: 2px solid red; */
+  /* background-color: rgba(0, 255, 255, 0.184); */
+}
+
+.logolar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100%;
+}
+.cazylogo {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+  /* background-color: rgba(0, 255, 255, 0.184); */
+  /* color: rgba(0, 255, 255, 0.184); */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+.link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: black;
+}
+
+.link:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.img-mahsulot {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.malumotlar {
+  display: flex;
+}
+
+.karta {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border: 2px solid red; */
+  background-color: antiquewhite;
+  margin-left: 100px;
+  padding: 10px;
+  /* margin-right: auto; */
+  /* width: 800px; */
+  height: 545px;
+  border-radius: 10px;
+}
+
+/* .matn {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  width: 100px;
+  height: 80px;
+} */
+
+.tittle {
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.otkazish {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.otkazish1 {
+  width: 150px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: rgba(128, 255, 0, 0.205);
+}
+
+.addbtn {
+  width: 150px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  /* margin-top: 300px;
+  margin-left: 200px; */
+  /* color: white; */
+  border-radius: 10px;
+  color: white;
+  background-color: #0d15a8bb;
+  cursor: pointer;
+  /* margin-top: auto; */
+}
